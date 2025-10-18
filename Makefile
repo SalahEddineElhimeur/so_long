@@ -25,7 +25,7 @@ OBJ = $(SRC:.c=.o)
 BOBJ = $(BSRC:.c=.o)
 LIBOBJ = $(LIBSRC:.c=.o)
 
-INCLUDE = -L/usr/include/minilibx-linux/ -lmlx -lXext -lX11
+INCLUDE = -Lminilibx-linux/ -lmlx -lXext -lX11
 
 %.o: %.c
 	@$(CC) $(CFLAGS) -c $< -o $@

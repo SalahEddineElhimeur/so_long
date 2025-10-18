@@ -6,14 +6,14 @@
 /*   By: sel-hime <sel-hime@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 00:45:25 by sel-hime          #+#    #+#             */
-/*   Updated: 2025/04/19 22:18:47 by sel-hime         ###   ########.fr       */
+/*   Updated: 2025/10/18 00:57:52 by sel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include "/usr/include/minilibx-linux/mlx.h"
+# include "minilibx-linux/mlx.h"
 # include "get_next_line/get_next_line.h"
 # include "libft/libft.h"
 # include <fcntl.h>
